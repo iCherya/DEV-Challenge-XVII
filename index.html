@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="./js/Background.js" defer></script>
+        <script src="./js/Rocket.js" defer></script>
+        <script src="./js/script.js" defer></script>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <h1>Frontend Code | DEV Challenge XVII</h1>
+        <div class="stats start">
+            <div class="start-velosity">Start Velocity: <span>0</span></div>
+            <div class="start-angle">Start Angle: <span>0</span></div>
+            <div class="start-height">Start Height: <span>0</span></div>
+            <div class="simulation-speed">
+                Speed: <input type="range" min="0" max="40" step="1" value="20" />
+            </div>
+        </div>
+        <canvas id="canvas" width="1000" height="500"></canvas>
+        <div class="stats current">
+            <div class="current-velosity">Current Velocity: <span>0</span></div>
+            <div class="current-height">Current Height: <span>0</span></div>
+            <div class="current-distance">Distance traveled: <span>0</span></div>
+        </div>
+    </body>
+</html>
