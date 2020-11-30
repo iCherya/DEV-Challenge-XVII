@@ -1,5 +1,4 @@
-# DEV Challenge XVII | Frontend Code Online Round
-Objective: to develop a web page that allows you to simulate the flight of a body thrown at an angle to the horizon.
+# DEV Challenge XVII | Frontend Code Lite
 
 
-![Simulation Demo](./simulation-demo.gif)
+![Dev Challenge XVII](https://media.dev.devchallenge.it/media/local/dev_challenge_XVII.png)

@@ -1,0 +1,5 @@
+room width=10 length=20
+rectangle x=0 y=0 width=5 length=6
+rectangle x=6 y=7 width=1 length=1
+triangle x=5 y=9 length=2
+ellipse x=2 y=10 radiusX=2 radiusY=3

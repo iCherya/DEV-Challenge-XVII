@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Front-end Code Final</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="https://unpkg.com/konva@7.0.3/konva.min.js"></script>
+        <script src="./js/Room.js" defer></script>
+        <script src="./js/Rectangle.js" defer></script>
+        <script src="./js/Triangle.js" defer></script>
+        <script src="./js/Ellipse.js" defer></script>
+        <script src="./js/index.js" defer></script>
+    </head>
+    <body>
+        <h1>DEV Challenge XVII | Frontend Code Final</h1>
+        <div class="wrapper">
+            <div id="controls" class="controls">
+                <div class="input-field">
+                    <label for="input-file">Please, upload specification file</label><br />
+                    <input type="file" id="input-file" />
+                </div>
+                <div>
+                    <textarea name="textarea" id="textarea" cols="40" rows="30"></textarea>
+                </div>
+                <div class="message"></div>
+            </div>
+            <div id="container" class="visualization"></div>
+        </div>
+    </body>
+</html>
